@@ -53,15 +53,14 @@ h3 {
 
 .section1-left, .section1-right {
     display: flex;
-    flex: 0 1 390px;
+    flex-basis: 390px;
+    flex-shrink: 0;
 }
 
 .section1-left {
     flex-direction: column;
     gap: 10px;
 }
-
-/* need to figure out how to keep section1-right img from squishing horizontally */
 
 h1 {
     font-size: 48px;
@@ -95,6 +94,7 @@ h2 {
     justify-content: center;
     gap: 30px;
     margin-bottom: 40px;
+    align-items: center;
 }
 
 .picture {
@@ -107,8 +107,9 @@ h2 {
 }
 
 .picture > img {
-    border: 3px solid #2581eb;
+    border: 3px solid #3882f6;
     border-radius: 10px;
+    max-height: 102px;
 }
 
 /* figure out how to get rid of white bands on top and bottom of img4, and how to make third picture scale similar to the rest */

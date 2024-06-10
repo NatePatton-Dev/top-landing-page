@@ -16,11 +16,18 @@ img {
     height: auto;
 }
 
+.header-container {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
-    padding: 10px 100px;
+    flex: 0 1 800px;
+    padding: 10px 0;
 }
 
 .header-right {

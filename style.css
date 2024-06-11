@@ -110,6 +110,7 @@ h2 {
     border: 3px solid #3882f6;
     border-radius: 10px;
     max-height: 102px;
+    flex: auto;
 }
 
 /* figure out how to get rid of white bands on top and bottom of img4, and how to make third picture scale similar to the rest */
